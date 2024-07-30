@@ -1,0 +1,26 @@
+*{
+    font-family: cursive;
+}
+
+body{
+    background-color: rgb(192, 231, 233);
+}
+h1{
+    color: rgb(0, 11, 170);
+    font-weight: 1000;
+}
+
+a{
+    color : green;
+    font-weight: 400;
+    font-size: large;
+}
+h2,h3{
+    background-color: coral;
+    color:yellow
+}
+
+img{
+    width: 600px;
+    height: auto;
+}
