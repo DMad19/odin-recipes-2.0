@@ -2,14 +2,26 @@
     font-family: 'Brush Script MT','cursive','Courier New', Courier, monospace;
 }
 
-body{
+html,body{
+    margin: 0;
+}
+
+div{
+    box-sizing: border-box;
+    width : 600px;
+    margin: 10px auto;
+    padding: 30px;
+    border: 10px solid black;
     background-color: rgb(192, 231, 233);
 }
 h1{
+    text-align: center;
     color: rgb(0, 11, 170);
     font-weight: 1000;
 }
-
+ul>li{
+    margin: 0 auto;
+}
 a{
     color : green;
     font-weight: 400;
@@ -21,6 +33,8 @@ h2,h3{
 }
 
 img{
-    width: 600px;
+    display: block;
+    margin: 0 auto;
+    width: 400px;
     height: auto;
 }
